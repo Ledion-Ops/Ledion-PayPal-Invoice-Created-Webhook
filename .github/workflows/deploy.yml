@@ -32,4 +32,4 @@ jobs:
           aws-region: us-east-2
 
       - name: Deploy to AWS Lambda
-        run: aws lambda update-function-code --function-name Ledion-Paypal-Payment-Page --zip-file fileb://function.zip
+        run: aws lambda update-function-code --function-name Ledion-Paypal-Invoice-Created-Webhook --zip-file fileb://function.zip
