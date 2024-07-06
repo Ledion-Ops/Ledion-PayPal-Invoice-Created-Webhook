@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "handler.js",
   "dependencies": {
+    "@slack/web-api": "^7.3.1",
     "axios": "^0.21.1",
     "qs": "^6.12.2"
   },
